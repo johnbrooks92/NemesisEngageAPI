@@ -8,9 +8,7 @@ namespace NemesisEngage.API.Models
     {
         [BsonId]
         public string Id { get; set; }
-        
-        public string OwnerId { get; set; }
-        
+
         public DateTime CreatedAt { get; set; }
         
         public DateTime UpdatedAt { get; set; }

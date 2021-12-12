@@ -17,9 +17,11 @@ namespace NemesisEngage.API.Repositories
         {
             _mongoClient = mongoClient;
         } 
-        public Task<List<Character>> GetAll()
+        public async Task<List<Character>> GetAll()
         {
-            throw new System.NotImplementedException();
+            List<Character> characterCollection = await GetCollection().AsQueryable()
+                .Where(u => !u.Deleted).ToListAsync();
+            return characterCollection ;
         }
 
         public Task<Character> GetById(string id)

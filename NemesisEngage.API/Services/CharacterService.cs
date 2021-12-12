@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using NemesisEngage.API.Models;
 using NemesisEngage.API.Models.Requests;
@@ -11,6 +12,11 @@ namespace NemesisEngage.API.Services
         public CharacterService(IMongoRepository<Character> characterRepository)
         {
             _characterRepository = characterRepository;
+        }
+
+        public async Task<List<Character>> GetAllCharacters()
+        {
+            return await _characterRepository.GetAll();
         }
 
         public async Task<Character> CreateCharacter(CharacterCreateRequest request)

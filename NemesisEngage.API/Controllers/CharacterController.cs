@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -19,6 +20,13 @@ namespace NemesisEngage.API.Controllers
             _characterService = characterService;
         }
         
+        [HttpGet]
+        [SwaggerResponse(StatusCodes.Status200OK, null, typeof(List<Character>))]
+        public async Task<IActionResult> GetAllCharacters()
+        {
+            return Ok(await _characterService.GetAllCharacters());
+        }
+        
         [HttpPost]
         [SwaggerResponse(StatusCodes.Status201Created, null, typeof(Character))]
         [SwaggerResponse(StatusCodes.Status400BadRequest, null, typeof(string))]
@@ -26,7 +34,7 @@ namespace NemesisEngage.API.Controllers
         public async Task<IActionResult> Create(CharacterCreateRequest request)
         {
             var resource = await _characterService.CreateCharacter(request);
-            return resource != null ? Created($"/characters/{resource.Id}", resource ) : UnprocessableEntity();
+            return Created($"/characters/{resource.Id}", resource);
         }
     }
 }

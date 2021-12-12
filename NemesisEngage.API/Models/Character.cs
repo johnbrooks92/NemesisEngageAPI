@@ -13,7 +13,7 @@ namespace NemesisEngage.API.Models
 
         public Character(CharacterCreateRequest request)
         {
-            Id = Guid.NewGuid().ToString();
+            Id = request.Name?.Replace(" ", "-").ToLower();
             Name = request.Name;
             Series = request.Series;
             Attributes = request.Attributes;
