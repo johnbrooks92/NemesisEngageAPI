@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NemesisEngage.API", "NemesisEngage.API\NemesisEngage.API.csproj", "{A839763B-ABA3-4ADE-AEB8-CA9239FFCC3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A839763B-ABA3-4ADE-AEB8-CA9239FFCC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A839763B-ABA3-4ADE-AEB8-CA9239FFCC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A839763B-ABA3-4ADE-AEB8-CA9239FFCC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A839763B-ABA3-4ADE-AEB8-CA9239FFCC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

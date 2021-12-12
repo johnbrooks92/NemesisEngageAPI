@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "aRc9bqh/DqGBt6iAucu8F7YgjDdAmgdcgG+aYgktSsC5Hk5QjFlJ+nNenJJDV8gxsOczCSrXtagzzZtJ/bCdHw==",
+  "success": true,
+  "projectFilePath": "/Users/john/RiderProjects/NemesisEngage/NemesisEngage.API/NemesisEngage.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/john/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
+    "/Users/john/.nuget/packages/mongodb.bson/2.14.1/mongodb.bson.2.14.1.nupkg.sha512",
+    "/Users/john/.nuget/packages/mongodb.driver/2.14.1/mongodb.driver.2.14.1.nupkg.sha512",
+    "/Users/john/.nuget/packages/mongodb.driver.core/2.14.1/mongodb.driver.core.2.14.1.nupkg.sha512",
+    "/Users/john/.nuget/packages/mongodb.libmongocrypt/1.3.0/mongodb.libmongocrypt.1.3.0.nupkg.sha512",
+    "/Users/john/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
+    "/Users/john/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/john/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

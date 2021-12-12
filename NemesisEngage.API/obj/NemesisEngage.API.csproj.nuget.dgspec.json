@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/john/RiderProjects/NemesisEngage/NemesisEngage.API/NemesisEngage.API.csproj": {}
+  },
+  "projects": {
+    "/Users/john/RiderProjects/NemesisEngage/NemesisEngage.API/NemesisEngage.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/john/RiderProjects/NemesisEngage/NemesisEngage.API/NemesisEngage.API.csproj",
+        "projectName": "NemesisEngage.API",
+        "projectPath": "/Users/john/RiderProjects/NemesisEngage/NemesisEngage.API/NemesisEngage.API.csproj",
+        "packagesPath": "/Users/john/.nuget/packages/",
+        "outputPath": "/Users/john/RiderProjects/NemesisEngage/NemesisEngage.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/john/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.415/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
