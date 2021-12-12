@@ -1,3 +1,6 @@
+using System;
+using NemesisEngage.API.Models.Requests;
+
 namespace NemesisEngage.API.Models
 {
     public class Character : BaseResource
@@ -5,5 +8,15 @@ namespace NemesisEngage.API.Models
         public string Name { get; set; }
         public string Series { get; set; }
         public Attributes Attributes { get; set; }
+        
+        public Character() {}
+
+        public Character(CharacterCreateRequest request)
+        {
+            Id = Guid.NewGuid().ToString();
+            Name = request.Name;
+            Series = request.Series;
+            Attributes = request.Attributes;
+        }
     }
 }
